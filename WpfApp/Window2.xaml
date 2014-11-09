@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp.Window2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window2" Height="412" Width="585">
+    <Grid>
+        <ListBox Margin="2,0,0,0" Name="listBox1" Height="96" SelectionChanged="listBox1_SelectionChanged" VerticalAlignment="Top" SelectionMode="Multiple">
+            <ListBoxItem Name="Kaden">Kaden</ListBoxItem>
+            <ListBoxItem Name="KangYi">KangYi</ListBoxItem>
+            <ListBoxItem Name="John">John</ListBoxItem>
+        </ListBox>
+        <ListView Margin="2,97,0,163" SelectionChanged="listView1_SelectionChanged" Name="listView1">
+            <ListViewItem>Kaden</ListViewItem>
+            <ListViewItem>KangYi</ListViewItem>
+            <ListViewItem>John</ListViewItem>
+        </ListView>
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="104,0,0,118" Name="comboBox1" VerticalAlignment="Bottom" Width="120">
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+            <ComboBoxItem>123</ComboBoxItem>
+            <ComboBoxItem>214</ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>

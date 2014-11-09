@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="219" Width="353">
+    <Grid>
+        <ComboBox Name="comboBox1" Height="23" VerticalAlignment="Top" Margin="50,58,162,0">
+            <ComboBoxItem>kaden</ComboBoxItem>
+            <ComboBoxItem>sam</ComboBoxItem>
+        </ComboBox>
+        <Button Height="23" HorizontalAlignment="Left" Click="button1_Click" Margin="50,0,0,62" Name="button1" VerticalAlignment="Bottom" Width="75">Button</Button>
+        <TextBox Height="23" Margin="50,20,160,0" Name="textBox1" VerticalAlignment="Top" MaxLength="5">textBox text</TextBox>
+        <RadioButton Height="16" Click="button1_Click" HorizontalAlignment="Right" Margin="0,46,10,0" Name="radioButton1" VerticalAlignment="Top" Width="120">RadioButton</RadioButton>
+        <CheckBox HorizontalAlignment="Right" Margin="0,75,10,89" Name="checkBox1" Width="120">CheckBox</CheckBox>
+    </Grid>
+</Window>

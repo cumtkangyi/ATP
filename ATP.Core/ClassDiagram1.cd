@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ATP.Core.GetAutomationPatterns">
+    <Position X="2" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AiAAAAAAAAAACAABAAABAAQAAAAgAAEJAIAGAAAAEoA=</HashCode>
+      <FileName>AutomationPatterns.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATP.Core.UIAutomationRunner" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUIAutomationRunner.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ATP.Core.PatternOperator">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAwAACoABIAgANAAADAgCAEAAAABABAAICYAEAAiA=</HashCode>
+      <FileName>PatternOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATP.Core.PropertyConditions">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAQAQAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyConditions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ATP.Core.Tester" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ATP.Core.UIWindowAndElement" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAYAhAAGAAQQAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UIWindowAndElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="ATP.Core.IUIAutomationRunner">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUIAutomationRunner.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ATP.Core.IUIWindowAndElement">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAYAhAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUIWindowAndElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

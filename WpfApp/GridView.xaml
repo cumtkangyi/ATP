@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp.GridView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="GridView" Height="280" Width="467">
+    <Grid>
+        <!--将鼠标放在方框的边缘点击就会产生相应的分割线生成Grid.RowDefinitions-->
+        <Grid.RowDefinitions>
+            <!--Auto，实际作用就是取实际控件所需的最小值;值为*或N*，实际作用就是取尽可能大的值;数字,绝对尺寸-->
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" MinHeight="95" />
+            <RowDefinition Height="22" />
+        </Grid.RowDefinitions>
+        <ListView Name="listview1" MinWidth="280" Grid.RowSpan="2">
+            <ListView.View>
+                <GridView x:Name="gridView1">
+                    <GridViewColumn Header="EmployeeID" DisplayMemberBinding="{Binding Path=EmployeeID}"></GridViewColumn>
+                    <GridViewColumn Header="FirstName" DisplayMemberBinding="{Binding Path=FirstName}"></GridViewColumn>
+                    <GridViewColumn Header="LastName" DisplayMemberBinding="{Binding Path=LastName}"></GridViewColumn>
+                    <GridViewColumn Header="Address" DisplayMemberBinding="{Binding Path=Address}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <!--Grid.Row="1"用来设置WrapPanel及Button应该在父容器的什么位置-->
+    </Grid>
+
+</Window>

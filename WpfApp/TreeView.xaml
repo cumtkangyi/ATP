@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp.TreeView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="TreeView" Height="414" Width="421">
+    <Grid>
+        <TreeView Name="treeView1">
+            <TreeViewItem Header="Group1">
+                <TreeViewItem Header="Group1.1">
+                    <TreeViewItem Header="Group1.1.1">
+                        <TreeViewItem Header="Group1.1.1.1">
+                            <TreeViewItem Header="Group1.1.1.1.1">
+                                <TreeViewItem Header="Group1.1.1.1.1.1">
+                                    <TreeViewItem Header="Group1.1.1.1.1.1">
+                                        <TreeViewItem Header="Group1.1.1.1.1.1.1" />
+                                    </TreeViewItem>
+                                </TreeViewItem>
+                            </TreeViewItem>
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem />
+            </TreeViewItem>
+          </TreeViewItem>
+            <TreeViewItem Header="Group2" />
+        </TreeView>
+    </Grid>
+</Window>

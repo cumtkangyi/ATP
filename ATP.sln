@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP.TestForm", "ATP.TestForm\ATP.TestForm.csproj", "{067F0F0E-A2E5-43B2-BA87-FC45BDE7F525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{2D7C6E73-AF5C-46C8-A29E-3BE77BE47661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{ACD7B11E-3389-4B42-A2D5-1171F3A7988C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP.CoreLibs", "ATP.CoreLibs\ATP.CoreLibs.csproj", "{D4DD8983-D7CC-49F6-983D-C009CB7B0C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP.Core", "ATP.Core\ATP.Core.csproj", "{3FAB55D9-F1DC-4B4E-BDA8-FE04AEBBECCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csproj", "{9623C35A-7537-4055-B5BA-A9A76744CDB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIATest", "UIATest\UIATest.csproj", "{9ED25ED6-AB0A-4827-B103-911DA3832AA6}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{067F0F0E-A2E5-43B2-BA87-FC45BDE7F525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067F0F0E-A2E5-43B2-BA87-FC45BDE7F525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067F0F0E-A2E5-43B2-BA87-FC45BDE7F525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067F0F0E-A2E5-43B2-BA87-FC45BDE7F525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7C6E73-AF5C-46C8-A29E-3BE77BE47661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7C6E73-AF5C-46C8-A29E-3BE77BE47661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7C6E73-AF5C-46C8-A29E-3BE77BE47661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7C6E73-AF5C-46C8-A29E-3BE77BE47661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD7B11E-3389-4B42-A2D5-1171F3A7988C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD7B11E-3389-4B42-A2D5-1171F3A7988C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD7B11E-3389-4B42-A2D5-1171F3A7988C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD7B11E-3389-4B42-A2D5-1171F3A7988C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4DD8983-D7CC-49F6-983D-C009CB7B0C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DD8983-D7CC-49F6-983D-C009CB7B0C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DD8983-D7CC-49F6-983D-C009CB7B0C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DD8983-D7CC-49F6-983D-C009CB7B0C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAB55D9-F1DC-4B4E-BDA8-FE04AEBBECCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAB55D9-F1DC-4B4E-BDA8-FE04AEBBECCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAB55D9-F1DC-4B4E-BDA8-FE04AEBBECCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAB55D9-F1DC-4B4E-BDA8-FE04AEBBECCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9623C35A-7537-4055-B5BA-A9A76744CDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9623C35A-7537-4055-B5BA-A9A76744CDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9623C35A-7537-4055-B5BA-A9A76744CDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9623C35A-7537-4055-B5BA-A9A76744CDB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED25ED6-AB0A-4827-B103-911DA3832AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED25ED6-AB0A-4827-B103-911DA3832AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED25ED6-AB0A-4827-B103-911DA3832AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED25ED6-AB0A-4827-B103-911DA3832AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
